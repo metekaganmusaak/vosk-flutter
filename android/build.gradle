@@ -28,6 +28,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'org.vosk.flutter'
     compileSdk 33
 
     compileOptions {
